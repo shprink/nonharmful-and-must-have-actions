@@ -8,6 +8,8 @@
 
 ## Example usage
 
+```yml
 uses: shprink/nonharmful-and-must-have-actions@v1
 with:
   my-secret: ${{ secrets.MY_SECRET }}
+```
