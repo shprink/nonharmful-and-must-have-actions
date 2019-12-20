@@ -1,4 +1,4 @@
-# Hello world javascript action
+# shprink/nonharmful-and-must-have-actions
 
 ## Inputs
 
