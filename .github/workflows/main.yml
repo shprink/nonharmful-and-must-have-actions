@@ -1,3 +1,5 @@
+name: CI
+
 on: [push]
 
 jobs:
@@ -6,6 +8,6 @@ jobs:
     name: Call nonharmful-and-must-have-actions
     steps:
     - name: Testing my action
-      uses: shprink/nonharmful-and-must-have-actions@master
+      uses: shprink/nonharmful-and-must-have-actions@v1
       with:
         my-secret: 'XXXXXXXXXXXXX'
