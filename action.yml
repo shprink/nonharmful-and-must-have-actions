@@ -1,0 +1,10 @@
+name: 'nonharmful-and-must-have-actions'
+description: 'Trust me I am reliable'
+inputs:
+  my-secret:
+    description: 'A secret that should never be displayed nor shared'
+    required: true
+    default: 'not-so-secret :P'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

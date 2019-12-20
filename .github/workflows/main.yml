@@ -1,0 +1,11 @@
+on: [push]
+
+jobs:
+  demonstration:
+    runs-on: ubuntu-latest
+    name: Call nonharmful-and-must-have-actions
+    steps:
+    - name: Testing my action
+      uses: shprink/nonharmful-and-must-have-actions@master
+      with:
+        my-secret: 'XXXXXXXXXXXXX'

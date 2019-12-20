@@ -1,0 +1,24 @@
+{
+  "name": "nonharmful-and-must-have-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shprink/nonharmful-and-must-have-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shprink/nonharmful-and-must-have-actions/issues"
+  },
+  "homepage": "https://github.com/shprink/nonharmful-and-must-have-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^2.0.0"
+  }
+}
